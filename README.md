@@ -10,7 +10,7 @@ Created the base structure of the SeatView project.
 - Configured development environment
 
 https://seat-view-cinema--SHAMUYT.replit.app
-<img width="635" height="635" alt="qr-code" src="https://github.com/user-attachments/assets/9c0a82df-5fe3-4418-84a7-d899e9314784" />
+<img width="335" height="335" alt="qr-code" src="https://github.com/user-attachments/assets/9c0a82df-5fe3-4418-84a7-d899e9314784" />
 
 
 This commit establishes the foundation for the 3D virtual cinema seat preview system.
