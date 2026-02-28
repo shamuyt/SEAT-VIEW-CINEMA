@@ -1,5 +1,9 @@
 Initial project setup – SeatView 3D Virtual Cinema
 
+Frontend: React + Tailwind CSS
+3D Engine: Three.js (React Three Fiber)
+Backend: Node.js + Express
+Database: MongoDB (for user data and theatre seat data)
 Created the base structure of the SeatView project.
 
 - Initialized React frontend and Node.js backend
