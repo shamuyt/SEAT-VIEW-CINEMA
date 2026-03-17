@@ -91,6 +91,7 @@ Users can now preview a seat and proceed to ticket booking.
 Add user authentication system
 
 Implemented login and signup functionality.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e9dbb940-bf81-4969-84b7-f1165f868297" />
 
 - User registration
 - Login authentication
