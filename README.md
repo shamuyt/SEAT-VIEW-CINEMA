@@ -1,4 +1,4 @@
-Initial project setup – SeatView 3D Virtual Cinema 1
+Initial project setup – SeatView 3D Virtual Cinema 2
 
 Frontend: React + Tailwind CSS
 3D Engine: Three.js (React Three Fiber)
