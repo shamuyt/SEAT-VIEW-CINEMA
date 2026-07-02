@@ -279,82 +279,6 @@ Provides
 - User Profile
 - Favourite Seats
 
----
-
-# 🔄 Complete Workflow
-
-```
-Open Website
-
-↓
-
-Load React Application
-
-↓
-
-Initialize Three.js
-
-↓
-
-Load Theatre Models
-
-↓
-
-Generate Seat Layout
-
-↓
-
-Render Scene
-
-↓
-
-Wait for User Interaction
-
-↓
-
-User Clicks Seat
-
-↓
-
-Raycaster Detects Object
-
-↓
-
-Seat Highlighted
-
-↓
-
-Camera Moves Smoothly
-
-↓
-
-Screen Faces User
-
-↓
-
-Calculate Viewing Angle
-
-↓
-
-Display Seat Information
-
-↓
-
-User Can
-
-✔ Select Another Seat
-
-✔ Deselect Current Seat
-
-✔ Continue Booking
-
-↓
-
-Redirect to Ticket Booking Platform
-```
-
-
-
 # 🧠 Algorithms Used
 
 ## Raycasting Algorithm
@@ -502,7 +426,59 @@ Through this project, I gained practical experience in:
 - Git and GitHub collaboration
 
 ---
+---
 
+# 🔐 User Authentication System
+
+To provide a personalized and secure experience, Seat View Cinema includes a complete authentication system that allows users to create an account, log in securely, and save their preferences.
+
+### ✨ Features
+
+- 👤 User Registration
+- 🔑 Secure Login
+- 🔒 Password Hashing (bcrypt)
+- 🛡 JWT Authentication
+- 💾 Save Favourite Seats
+- 👤 Personalized User Profile
+- 🚪 Logout Functionality
+- 📱 Responsive Authentication Interface
+
+### Workflow
+
+```
+User Opens Website
+        │
+        ▼
+ Login / Register
+        │
+        ▼
+ Credentials Validated
+        │
+        ▼
+ Password Encrypted
+        │
+        ▼
+ JWT Token Generated
+        │
+        ▼
+ User Session Created
+        │
+        ▼
+ Access Granted
+        │
+        ▼
+ User Can Preview & Save Favourite Seats
+```
+
+### Authentication Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9dbb940-bf81-4969-84b7-f1165f868297" alt="Seat View Cinema Authentication" width="900">
+</p>
+
+The authentication module ensures that every user's preferences, selected seats, and future bookings are securely managed. Passwords are encrypted before storage using **bcrypt**, while **JWT (JSON Web Tokens)** are used to maintain secure user sessions across the application.
+
+---
 # 🏁 Conclusion
 
 Seat View Cinema demonstrates how **3D visualization can enhance real-world booking systems** by allowing users to make informed decisions before purchasing tickets. The project integrates modern web technologies with immersive graphics to simulate a realistic cinema experience. From building the 3D theatre and implementing interactive seat selection to optimizing camera movement and user authentication, the project showcases end-to-end full-stack development and practical problem-solving, making it a strong portfolio project in web development, computer graphics, and user experience design.
